@@ -1,0 +1,38 @@
+{
+  "extends": [
+    "tslint:latest",
+    "tslint-microsoft-contrib",
+    "tslint-config-prettier"
+  ],
+  "rules": {
+    "max-line-length": {
+      "options": [120]
+    },
+    "missing-jsdoc": false,
+    "completed-docs": false,
+    "no-implicit-dependencies": false,
+    "no-submodule-imports": false,
+    "no-default-export": false,
+    "export-name": false,
+    "quotemark": [true, "double"],
+    "typedef": false,
+    "trailing-comma": false,
+    "no-angle-bracket-type-assertion": true,
+    "prefer-type-cast": false,
+    "match-default-export-name": false,
+    "max-classes-per-file": false,
+    "promise-function-async": false,
+    "strict-boolean-expressions": false,
+    "semicolon": [true, "always", "strict-bound-class-methods"],
+    "align": false,
+    "no-suspicious-comment": false,
+    "no-increment-decrement": false,
+    "no-invalid-this": false,
+    "mocha-no-side-effect-code": false
+  },
+  "jsRules": {
+    "max-line-length": {
+      "options": [120]
+    }
+  }
+}
