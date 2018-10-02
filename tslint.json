@@ -28,7 +28,8 @@
     "no-suspicious-comment": false,
     "no-increment-decrement": false,
     "no-invalid-this": false,
-    "mocha-no-side-effect-code": false
+    "mocha-no-side-effect-code": false,
+    "variable-name": [true, "ban-keywords", "check-format", "allow-pascal-case"]
   },
   "jsRules": {
     "max-line-length": {
