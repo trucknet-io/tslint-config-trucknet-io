@@ -29,7 +29,8 @@
     "no-increment-decrement": false,
     "no-invalid-this": false,
     "mocha-no-side-effect-code": false,
-    "variable-name": [true, "ban-keywords", "check-format", "allow-pascal-case"]
+    "variable-name": [true, "ban-keywords", "check-format", "allow-pascal-case"],
+    "radix": false
   },
   "jsRules": {
     "max-line-length": {
