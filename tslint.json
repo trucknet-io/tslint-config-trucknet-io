@@ -34,7 +34,11 @@
     "mocha-no-side-effect-code": false,
     "variable-name": [true, "ban-keywords", "check-format", "allow-pascal-case"],
     "no-use-before-declare": false,
-    "no-reserved-keywords": false
+    "no-reserved-keywords": false,
+    "no-relative-imports": [true, "allow-siblings"],
+    "newline-before-return": false,
+    "no-unnecessary-local-variable": false,
+    "max-func-body-length": false
   },
   "jsRules": {
     "max-line-length": {
