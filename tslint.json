@@ -38,7 +38,8 @@
     "no-relative-imports": [true, "allow-siblings"],
     "newline-before-return": false,
     "no-unnecessary-local-variable": false,
-    "max-func-body-length": false
+    "max-func-body-length": false,
+    "prefer-readonly": false
   },
   "jsRules": {
     "max-line-length": {
