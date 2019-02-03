@@ -12,6 +12,7 @@
       "options": [120]
     },
     "missing-jsdoc": false,
+    "no-backbone-get-set-outside-model": false,
     "completed-docs": false,
     "no-implicit-dependencies": false,
     "no-submodule-imports": false,
