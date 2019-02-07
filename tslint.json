@@ -8,9 +8,6 @@
     "exclude": ["*.json", "**/*.json"]
   },
   "rules": {
-    "max-line-length": {
-      "options": [120]
-    },
     "missing-jsdoc": false,
     "no-backbone-get-set-outside-model": false,
     "completed-docs": false,
@@ -40,11 +37,26 @@
     "newline-before-return": false,
     "no-unnecessary-local-variable": false,
     "max-func-body-length": false,
-    "prefer-readonly": false
+    "prefer-readonly": false,
+    "radix": false,
+    "no-console": [true, { "allow": ["error"] }],
+    "no-import-side-effect": [true, { "ignore-module": "^jest-dom/extend-expect$" }],
+    "interface-name": false,
+    "max-line-length": [
+      true,
+      {
+        "limit": 80,
+        "ignore-pattern": "^\\s+`|^\\s+\"|describe\\(\"|it\\(\"|test\\(\""
+      }
+    ]
   },
   "jsRules": {
-    "max-line-length": {
-      "options": [120]
-    }
+    "max-line-length": [
+      true,
+      {
+        "limit": 80,
+        "ignore-pattern": "^\\s+`|^\\s+\"|describe\\(\"|it\\(\"|test\\(\""
+      }
+    ]
   }
 }
