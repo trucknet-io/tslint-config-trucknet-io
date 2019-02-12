@@ -48,6 +48,12 @@
         "limit": 80,
         "ignore-pattern": "^\\s+`|^\\s+\"|describe\\(\"|it\\(\"|test\\(\""
       }
+    ],
+    "function-name": [
+      true,
+      {
+        "static-method-regex": ""
+      }
     ]
   },
   "jsRules": {
