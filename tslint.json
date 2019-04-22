@@ -42,13 +42,7 @@
     "no-console": [true, { "allow": ["error"] }],
     "no-import-side-effect": [true, { "ignore-module": "^jest-dom/extend-expect$" }],
     "interface-name": false,
-    "max-line-length": [
-      true,
-      {
-        "limit": 80,
-        "ignore-pattern": "^\\s+`|^\\s+\"|describe\\(\"|it\\(\"|test\\(\""
-      }
-    ],
+    "max-line-length": false,
     "function-name": [
       true,
       { 
