@@ -52,7 +52,8 @@
         "static-method-regex": "^[a-z][\\w\\d]+$",
         "function-regex": "^[a-z][\\w\\d]+$"
       }
-    ]
+    ],
+    "no-null-keyword": false
   },
   "jsRules": {
     "max-line-length": [
