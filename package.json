@@ -8,7 +8,9 @@
     "tslint",
     "preset"
   ],
-  "scripts": {},
+  "scripts": {
+    "test": "tslint test.ts"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/trucknet-io/tslint-config-trucknet-io.git"

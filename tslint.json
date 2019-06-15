@@ -40,7 +40,7 @@
     "prefer-readonly": false,
     "radix": false,
     "no-console": [true, { "allow": ["error"] }],
-    "no-import-side-effect": [true, { "ignore-module": "^jest-dom/extend-expect$" }],
+    "no-import-side-effect": [true, { "ignore-module": "^jest-dom\/extend-expect$|^jest-extended$" }],
     "interface-name": false,
     "max-line-length": false,
     "function-name": [
