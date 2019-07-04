@@ -1,35 +1,42 @@
 {
-  "name": "tslint-config-trucknet-io",
-  "version": "1.5.3",
-  "description": "Tslint sharable config based on JavaScript Standard Style with comma-dangles, semi and much more",
-  "main": "tslint.json",
-  "keywords": [
-    "typescript",
-    "tslint",
-    "preset"
-  ],
-  "scripts": {
-    "test": "tslint test.ts"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/trucknet-io/tslint-config-trucknet-io.git"
-  },
-  "author": "goooseman",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/trucknet-io/tslint-config-trucknet-io/issues"
-  },
-  "homepage": "https://github.com/trucknet-io/tslint-config-trucknet-io#readme",
-  "devDependencies": {
-    "typescript": "^3.5.0"
-  },
-  "dependencies": {
-    "tslint": "^5.17.0",
-    "tslint-config-prettier": "^1.18.0",
-    "tslint-microsoft-contrib": "^6.2.0"
-  },
-  "peerDependencies": {
-    "typescript": ">= 2.7.2"
-  }
+	"name": "tslint-config-trucknet-io",
+	"version": "1.5.3",
+	"description": "Tslint sharable config based on JavaScript Standard Style with comma-dangles, semi and much more",
+	"main": "tslint.json",
+	"keywords": [
+		"typescript",
+		"tslint",
+		"preset"
+	],
+	"scripts": {
+		"build": "tsc -p tsconfig.json",
+		"test": "tslint test.ts",
+		"prepublish": "npm run build"
+	},
+	"files": [
+		"custom-rules",
+		"tslint.json"
+	],
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/trucknet-io/tslint-config-trucknet-io.git"
+	},
+	"author": "goooseman",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/trucknet-io/tslint-config-trucknet-io/issues"
+	},
+	"homepage": "https://github.com/trucknet-io/tslint-config-trucknet-io#readme",
+	"devDependencies": {
+		"@types/node": "^12.0.12",
+		"typescript": "^3.5.0"
+	},
+	"dependencies": {
+		"tslint": "^5.17.0",
+		"tslint-config-prettier": "^1.18.0",
+		"tslint-microsoft-contrib": "^6.2.0"
+	},
+	"peerDependencies": {
+		"typescript": ">= 2.7.2"
+	}
 }
