@@ -9,6 +9,7 @@
     "moduleResolution": "node",
     "module": "commonjs",
     "strict": true,
+    "declaration": true,
     "lib": ["es2015", "es2017"],
     "typeRoots": ["node_modules/@types"],
     "target": "es5",
