@@ -7,6 +7,7 @@
   "linterOptions": {
     "exclude": ["*.json", "**/*.json"]
   },
+  "rulesDirectory": "./custom-rules",
   "rules": {
     "missing-jsdoc": false,
     "no-backbone-get-set-outside-model": false,
@@ -30,7 +31,12 @@
     "no-increment-decrement": false,
     "no-invalid-this": false,
     "mocha-no-side-effect-code": false,
-    "variable-name": [true, "ban-keywords", "check-format", "allow-pascal-case"],
+    "variable-name": [
+      true,
+      "ban-keywords",
+      "check-format",
+      "allow-pascal-case"
+    ],
     "no-use-before-declare": false,
     "no-reserved-keywords": false,
     "no-relative-imports": [true, "allow-siblings"],
@@ -40,12 +46,15 @@
     "prefer-readonly": false,
     "radix": false,
     "no-console": [true, { "allow": ["error"] }],
-    "no-import-side-effect": [true, { "ignore-module": "^jest-dom\/extend-expect$|^jest-extended$" }],
+    "no-import-side-effect": [
+      true,
+      { "ignore-module": "^jest-dom/extend-expect$|^jest-extended$" }
+    ],
     "interface-name": false,
     "max-line-length": false,
     "function-name": [
       true,
-      { 
+      {
         "method-regex": "^[a-z][\\w\\d]+$",
         "private-method-regex": "^[a-z][\\w\\d]+$",
         "protected-method-regex": "^[a-z][\\w\\d]+$",
@@ -53,7 +62,8 @@
         "function-regex": "^[a-z][\\w\\d]+$"
       }
     ],
-    "no-null-keyword": false
+    "no-null-keyword": false,
+    "no-void-expression-smart": false
   },
   "jsRules": {
     "max-line-length": [

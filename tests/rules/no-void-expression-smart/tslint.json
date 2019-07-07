@@ -1,0 +1,8 @@
+{
+  "rules": {
+    "no-void-expression": false,
+    "no-void-expression-smart": [true, {
+      "ignore-patterns": ["skipMe\\("] 
+    }]
+  }
+}

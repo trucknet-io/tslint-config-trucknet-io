@@ -9,8 +9,14 @@
     "preset"
   ],
   "scripts": {
-    "test": "tslint test.ts"
+    "build": "rimraf custom-rules && tsc -p tsconfig.json",
+    "test": "tslint -r custom-rules --test tests/rules/**/tslint.json",
+    "prepublish": "npm run build && npm run test"
   },
+  "files": [
+    "custom-rules",
+    "tslint.json"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/trucknet-io/tslint-config-trucknet-io.git"
@@ -22,6 +28,8 @@
   },
   "homepage": "https://github.com/trucknet-io/tslint-config-trucknet-io#readme",
   "devDependencies": {
+    "@types/node": "^12.0.12",
+    "rimraf": "^2.6.3",
     "typescript": "^3.5.0"
   },
   "dependencies": {

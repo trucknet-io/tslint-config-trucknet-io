@@ -1,0 +1,12 @@
+function skipMe(param: string): void {
+  console.log("Skip me", param);
+}
+
+function errorMe(param: string): void {
+  console.log("Error me", param);
+}
+
+const test1 = () => skipMe("No tslint error");
+
+const test2 = () => errorMe("Tslint error here");
+                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~  [Expression has type `void`. Put it on its own line as a statement.]
