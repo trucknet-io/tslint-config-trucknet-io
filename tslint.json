@@ -67,7 +67,7 @@
     "jsx-no-bind": true,
     "no-unnecessary-callback-wrapper": false,
     "insecure-random": false,
-    "no-console": [true, "log", "warn", "time", "table", "timeEnd"],
+    "no-console": [true, "log", "time", "table", "timeEnd"],
     "no-this-assignment": [true, { "allow-destructuring": true }],
     "react-unused-props-and-state": false,
     "import-name": false,
