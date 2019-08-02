@@ -1,6 +1,6 @@
 {
   "name": "tslint-config-trucknet-io",
-  "version": "1.8.1",
+  "version": "1.8.2",
   "description": "Tslint sharable config based on JavaScript Standard Style with comma-dangles, semi and much more",
   "main": "tslint.json",
   "keywords": [
