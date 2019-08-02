@@ -2,7 +2,8 @@
   "extends": [
     "tslint:latest",
     "tslint-microsoft-contrib",
-    "tslint-config-prettier"
+    "tslint-config-prettier",
+    "tslint-react"
   ],
   "linterOptions": {
     "exclude": ["*.json", "**/*.json"]
