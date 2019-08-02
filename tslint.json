@@ -45,7 +45,6 @@
     "max-func-body-length": false,
     "prefer-readonly": false,
     "radix": false,
-    "no-console": [true, { "allow": ["error"] }],
     "no-import-side-effect": [
       true,
       { "ignore-module": "^jest-dom/extend-expect$|^jest-extended$" }
@@ -63,15 +62,19 @@
       }
     ],
     "no-null-keyword": false,
-    "no-void-expression-smart": false
+    "no-void-expression-smart": false,
+    "no-empty": false,
+    "jsx-no-bind": true,
+    "no-unnecessary-callback-wrapper": false,
+    "insecure-random": false,
+    "no-console": [true, "log", "warn", "time", "table", "timeEnd"],
+    "no-this-assignment": [true, { "allow-destructuring": true }],
+    "react-unused-props-and-state": false,
+    "import-name": false,
+    "use-simple-attributes": false,
+    "no-empty-interface": false
   },
   "jsRules": {
-    "max-line-length": [
-      true,
-      {
-        "limit": 80,
-        "ignore-pattern": "^\\s+`|^\\s+\"|describe\\(\"|it\\(\"|test\\(\""
-      }
-    ]
+    "max-line-length": false
   }
 }
