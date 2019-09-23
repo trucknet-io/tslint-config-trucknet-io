@@ -17,7 +17,7 @@
     "no-submodule-imports": false,
     "no-default-export": false,
     "export-name": false,
-    "quotemark": [true, "double"],
+    "quotemark": [true, "double", "avoid-escape"],
     "typedef": false,
     "trailing-comma": false,
     "no-angle-bracket-type-assertion": true,
