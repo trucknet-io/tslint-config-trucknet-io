@@ -63,21 +63,38 @@
       }
     ],
     "no-null-keyword": false,
-    "no-void-expression-smart": false,
-    "no-empty": false,
+    "no-void-expression": false,
+    "no-void-expression-smart": [
+      true,
+      "ignore-arrow-function-shorthand",
+      { "ignore-patterns": ["graphql`"] }
+    ],
+    "no-empty": [true, "allow-empty-functions"],
     "jsx-no-bind": true,
     "no-unnecessary-callback-wrapper": false,
     "insecure-random": false,
     "no-console": [true, "log", "time", "table", "timeEnd"],
     "no-this-assignment": [true, { "allow-destructuring": true }],
     "react-unused-props-and-state": false,
-    "import-name": false,
+    "import-name": [
+      true,
+      null,
+      {
+        "netlify-cms-app": "CMS",
+        "classnames": "cn"
+      },
+      null,
+      { "ignoreExternalModule": false, "case": "any-case" }
+    ],
     "use-simple-attributes": false,
     "no-empty-interface": false,
     "jsx-boolean-value": [true, "never"],
     "jsx-no-multiline-js": false,
     "jsx-alignment": false,
-    "jsx-wrap-multiline": false
+    "jsx-wrap-multiline": false,
+    "no-typeof-undefined": false,
+    "no-non-null-assertion": false,
+    "react-a11y-anchors": false
   },
   "jsRules": {
     "max-line-length": false
