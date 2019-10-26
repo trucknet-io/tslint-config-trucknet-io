@@ -48,7 +48,7 @@
     "radix": false,
     "no-import-side-effect": [
       true,
-      { "ignore-module": "^jest-dom/extend-expect$|^jest-extended|^@testing-library/jest-dom$" }
+      { "ignore-module": "^jest-dom/extend-expect$|^jest-extended|^@testing-library/jest-dom/extend-expect$" }
     ],
     "interface-name": false,
     "max-line-length": false,
