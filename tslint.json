@@ -94,7 +94,8 @@
     "jsx-wrap-multiline": false,
     "no-typeof-undefined": false,
     "no-non-null-assertion": false,
-    "react-a11y-anchors": false
+    "react-a11y-anchors": false,
+    "jsx-ban-props": [true, ["fill-rule"]]
   },
   "jsRules": {
     "max-line-length": false
